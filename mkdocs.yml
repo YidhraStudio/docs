@@ -1,0 +1,86 @@
+site_name: Yidhra Studio - Documentations
+plugins:
+  - search:
+      lang: fr
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+extra_javascript:
+  - assets/js/consent.js
+theme:
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.footer
+  name: material
+  font:
+    text: Inter
+  language: fr
+  logo: assets/img/logo.png
+  favicon: assets/img/favicon.png
+  homepage: https://yidhra.fr
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YidhraStudio
+    - icon: fontawesome/brands/discord
+      link: https://yidhra.fr
+  consent:
+    title: Cookie pas trop sucré..
+    description: >- 
+      Nous utilisons des cookies pour distinguer vos visites répétées et vos préférences,
+      ainsi que pour mesurer l'efficacité de notre documentation et savoir si les utilisateurs sont satisfaits de nos services.
+      Grace à votre choix nous pouvons mesurer l'efficacité de notre documentation et déterminer si les utilisateurs trouvent ce qu'ils cherchent.
+      Avec votre consentement, vous nous aidez à améliorer notre documentation tout en respectant votre vie privée.
+    actions:
+      - accept
+      - manage
+      - reject
+    #cookies:
+      #analytics:
+      #  name: Google Analytics
+      #  checked: false
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - tables
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences
+copyright: >
+  Copyright &copy; 2023 Yidhra Studio –
+  <a href="#__consent">Cliquez ici pour gérer vos cookies</a>
