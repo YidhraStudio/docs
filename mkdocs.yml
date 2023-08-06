@@ -1,4 +1,4 @@
-site_name: Yidhra Studio - Documentations
+site_name: Yidhra Studio
 plugins:
   - search:
       lang: fr
@@ -11,6 +11,7 @@ theme:
     - navigation.tracking
     - navigation.tabs
     - navigation.tabs.sticky
+    - content.tabs.link
     - navigation.prune
     - navigation.indexes
     - toc.follow
@@ -71,6 +72,7 @@ markdown_extensions:
   - def_list
   - footnotes
   - tables
+  - md_in_html
   - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.mark
@@ -81,6 +83,11 @@ markdown_extensions:
   - pymdownx.smartsymbols
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 
 copyright: >
   Copyright &copy; 2023 Yidhra Studio –
   <a href="#__consent">Cliquez ici pour gérer vos cookies</a>
