@@ -9,52 +9,46 @@ Bienvenue sur la documentation de notre studio de développement !
 
 ## Nos produits et services
 
-=== "Minecraft"
+=== "FiveM Roleplay"
 
-    * Network mini-jeux AdlC (PvP & PvE)
-    * Serveur à la demande (Mode de jeu survie, histoire ou minijeux)
-    * Evènement à la demande (Pour les comunautés de streameur ou youtubeur.)
+    !!! info "Les ressources Yidrp"
+            Les ressources Yidhre Roleplay sont comercialisé via tebex et keymaster
 
-=== "FiveM"
-
-    !!! info "La base Yid"
-            La base Yidhre est une base FiveM comercialisé écrite en JavaScript sur le standard ES2017 avec Node.js 16 LTS
+            Les languages utilisé sont : Lua, TypeScript/JavaScript
             
-            Cette base est composé de module et sous-modules majoritairement désactiveable.
-                *Comme par exemple le module "Auto école"*
-
-            Le code de cette base n'est pas modifiable mais toutefois des modification sont apporté via des *Issues GitHub*
+            Le code de ses ressources n'est pas modifiable mais toutefois des modification sont apporté via des *Issues GitHub* au quel vous pouvez participé.
 
             Il est possible pour le joueur de choisir sa langue mais également de définir la langue par défaut du serveur.
 
             L'image de marque de votre serveur peux être définni via des variables d'environnements
+            Comme l'enssemble des autres réglages.
+
+            Les paramètres sont stockés dans un fichier JSON pour permetre des modification dynamique.
+
 
     !!! tip
-        Pour plus de détail rendez vous sur la page de documentation de Yid.
+        **Les ressources ne sont pas encore disponible à la vente.**
     
-    [Voir la documentation de Yid](#){ .md-button .md-button--primary }
-    !!! abstract inline end "Utilisation de la base"
-        [:material-script-text-key: Acheter une licence](#){ .md-button }
-        Avec une licence délivré pour une durée de validité de une année par exemple, vous pouvez utilisé la base sur jusqu'à 3 instances sur la même adresse IPv4.
+    [Consulter la documentation de YidRP](#){ .md-button .md-button--primary }
+    !!! abstract inline end "Abonnement & Support"
+        [:material-script-text-key: Obtenir une licence](https://yidhra-studio.tebex.io/){ .md-button }
 
-    
+        [:material-script-text-key: Notre Discord](#){ .md-button }
 
+=== "FiveM Freeroom"
+
+    !!! info "Les ressources Yidfr"
+            La base Yidhre Freeroom est une base FiveM comercialisé via tebex et keymaster, écrite en Lua 5.4
             
+            Cette base est composé de module et sous-modules majoritairement désactiveable.
+                *Comme par exemple le module "Instance PvP"*
 
-=== "RedM"
+            **Les ressources sont en cours de réalisation théorique.**
+    
+    
+    !!! tip
+        **Les ressources ne sont pas encore disponible à la vente.**
+
+=== "RedM Roleplay"
 
     Prochainement...
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
